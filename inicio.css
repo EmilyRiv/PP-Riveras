@@ -1,0 +1,559 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: #E56A7A;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-title a {
+    text-decoration: none;
+    color: #DC6A77;
+    display: flex;
+    align-items: center;
+}
+
+.logo-title img {
+    width: 110px;
+    margin-right: 10px;
+    border-radius: 40px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    font-size: 30px;
+    padding-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #b60015;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #74c7f0; /* Cambia el color al pasar el cursor sobre los enlaces */
+}
+
+.divar {
+    display: flex;
+    align-items: center;
+    background-color: #74c7f0;
+}
+
+.material-symbols-outlined {
+    font-size: 15px;
+    margin-right: 5px; 
+}
+
+p {
+    margin: 0; 
+}
+
+.material-symbols-outlined{
+    color: white;
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+div p{
+    color: white;
+}
+
+
+
+footer {
+    background-color: #74C7F0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.imgfondo{
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+
+
+.title {
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    color: #85000f;
+    z-index: 2;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  .subtitle {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    color: #a71600;
+    z-index: 2;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carrousel {
+    width: 100%;
+}
+
+.conteCarrousel {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.itemCarrousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta {
+    display: flex; 
+    align-items: center; 
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselText {
+    padding: 0 20px;
+    color: white; 
+}
+
+#itemCarrousel-1 {
+    background-color: #38A6BC;
+}
+
+#itemCarrousel-2 {
+    background-color: #882F22;
+}
+
+#itemCarrousel-3 {
+    background-color: #E1A86C;
+}
+
+.conteCarrouselController {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a {
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.carrousel img {
+    width: 500px;
+    height: 400px;
+    padding: 22px;
+    border-radius: 80px;
+}
+
+
+.boton1{
+    width: 90%; height: 30px; font-size: 20px; border-color: white; background-color: #7ce9ff; color: white;
+    border-radius: 40px;
+}
+
+.boton1:hover{
+background-color: #FBE0D5;
+color: #DC6A77;
+}
+
+
+.boton2{
+    width: 90%; height: 30px; font-size: 20px; border-color: white; background-color: #831201; color: white;
+    border-radius: 40px;
+}
+
+.boton2:hover{
+background-color: #d13a23;
+color: #ffff;
+}
+
+.boton3{
+    width: 90%; height: 30px; font-size: 20px; border-color: white; background-color: #db8522; color: white;
+    border-radius: 40px;
+}
+
+.boton3:hover{
+background-color: #c26d0c;
+color: #ffff;
+}
+
+
+
+.pastelperso{
+    height: 300px;
+}
+
+.imgpast{
+    position: absolute;
+    z-index: 1;
+    opacity: 0.5;
+    width: 100%;
+    height: 60%;
+}
+
+.titlepast{
+    font-size: 50px;
+    color: #771101;
+    z-index: 2;
+    position:relative;
+text-align: center;
+padding-top: 7%
+}
+
+
+.botonpast{
+    width: 300px;
+    height: 40px;
+    background-color: #E1A86C;
+    color: #771101;
+    font-size: 18px;
+    border: none;
+    z-index: 2;
+    position: relative;
+}
+
+.botonpast:hover{
+    background-color: #792a1e;
+    color: #E1A86C;
+}
+
+
+
+
+
+
+.banner {
+    background-color: #333;
+    color: #fff;
+    
+  }
+  
+  .contenedor {
+    display: flex;
+  }
+  
+  .seccion {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .seccion.izquierda {
+    background-color: #0077b5;
+    color: #DC6A77;
+  }
+  
+  .seccion.derecha {
+    background-color: #38A6BC;
+  }
+  
+  @media (max-width: 768px) {
+    .contenedor {
+      flex-direction: column;
+    }
+  
+    .seccion {
+      width: 100%;
+    }
+  }
+  
+
+
+
+
+  .pie-pagina {
+    background-image: url(pastelfondo.jpg);
+    color: #fff;
+    padding: 20px 0;
+    background-size: cover;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    max-width: auto;
+    margin: 0 auto;
+}
+
+.seccion-contacto,
+.seccion-enlaces,
+.seccion-redes-sociales {
+    flex: 1;
+}
+
+.seccion-enlaces ul,
+.seccion-redes-sociales ul {
+    list-style: none;
+    padding: 0;
+}
+
+.seccion-enlaces a,
+.seccion-redes-sociales a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.seccion-redes-sociales img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.derechos-reservados {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.derechos-reservados p {
+    font-size: 14px;
+}
+
+
+.sobnos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    background-image: url(fondopastel.jpg);
+    background-size: cover; 
+  }
+
+.sobnosizqui {
+    flex: 1;
+    padding: 10%;
+}
+
+.sobnosdere {
+    flex: 1;
+    text-align: right; 
+    padding-right: 5%;
+}
+
+.sobnosdere img {
+    max-width: 100%; 
+    height: auto; 
+    
+    border-radius: 50px;
+}
+
+.sobnostitle{
+    color: #771101;
+    font-size: 30px;
+}
+
+.sobnosp{
+    color: #771101;
+ 
+}
+
+.galeriaimg {
+    display: flex;
+}
+
+.galeriaimg img {
+    width: 20%;
+    height: 300px;
+    margin-right: 5px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.galeriaimg img:hover {
+    transform: scale(1.2); 
+    z-index: 1;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+/*Tienda*/
+
+.producto {
+    display: inline-block;
+    width: 300px; 
+    margin-right: 10px;
+    
+}
+
+.producto img {
+    width: 200px;
+    height: 250px;
+    padding-bottom: 20px;
+    transition: transform 0.3s ease-in-out; 
+    border-radius: 40px;
+}
+.producto img:hover{
+    transform: scale(1.2); 
+}
+
+
+.producto h3{
+    text-align: center;
+    color: #333;
+}
+.precio{
+    text-align: center;
+    color: #333;
+    padding-bottom: 10px;
+}
+
+
+.Tiendaproduc h2{
+    color: #57000a;
+}
+
+
+.productosboton{
+    background-color: #74C7F0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+}
+
+.productosboton:hover{
+    background-color: #DC6A77;
+}
+
+
+
+
+
+
+
+/*CONTACTO*/
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    border: 1px solid #ccc; 
+    padding: 20px;
+}
+
+.texto-contacto {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.formulario-contacto {
+    flex: 1;
+}
+
+.formulario-contacto form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contenido-contacto{
+    background-image: url(fondooo.jpg);
+    width: 800px;
+    border: none;
+    border-radius: 50px;
+    background-size: cover;
+}
+
+.contactoboton {
+    background-image: url(pastelfondo.jpg);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.contactoboton:hover{
+    background-image: url(fondopastel.jpg);
+}
+
+.contactitle{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.contactext{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.formulario label{
+    color: #ffff;
+}
+
+.formulario input{
+    border: none;
+    height: 20px;
+    width: 90%;
+    border-radius: 40px;
+}
+
+.formulario textarea{
+    border: none;
+    width: 90% ;
+    border-radius: 40px;
+}
